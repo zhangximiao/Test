@@ -1,0 +1,216 @@
+2018-09-10 22:04:27.734 [main] INFO  com.course.Application - Starting Application on zxm with PID 19508 (D:\zxm\Test\Chapter11\target\classes started by 苏软 in D:\zxm\Test)
+2018-09-10 22:04:27.747 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-09-10 22:04:28.022 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e178745: startup date [Mon Sep 10 22:04:28 CST 2018]; root of context hierarchy
+2018-09-10 22:04:30.884 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-09-10 22:04:30.916 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-10 22:04:30.916 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-10 22:04:30.923 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Appium\node_modules\.bin;C:\Androidsdk\sdk\tools;C:\Androidsdk\sdk\platform-tools;C:\Androidsdk\sdk\build-tools\android-4.4W;C:\nodejs\;D:\Python\Python37;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Mozilla Firefox;d:\Program Files\Git\cmd;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Fiddler;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Users\苏软\AppData\Roaming\npm;.]
+2018-09-10 22:04:31.810 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-10 22:04:31.810 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3788 ms
+2018-09-10 22:04:32.011 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-10 22:04:32.017 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 22:04:32.017 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 22:04:32.017 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 22:04:32.017 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 22:04:32.085 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 22:04:32.086 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2018-09-10 22:04:32.088 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-09-10 22:04:32.113 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-10 22:04:32.245 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+	- Bean method 'sqlSessionTemplate' not loaded because @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans of type javax.sql.DataSource
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2018-09-10 22:05:38.696 [main] INFO  com.course.Application - Starting Application on zxm with PID 10916 (D:\zxm\Test\Chapter11\target\classes started by 苏软 in D:\zxm\Test)
+2018-09-10 22:05:38.705 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-09-10 22:05:38.843 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26b3fd41: startup date [Mon Sep 10 22:05:38 CST 2018]; root of context hierarchy
+2018-09-10 22:05:40.679 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-09-10 22:05:40.713 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-10 22:05:40.713 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-10 22:05:40.724 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Appium\node_modules\.bin;C:\Androidsdk\sdk\tools;C:\Androidsdk\sdk\platform-tools;C:\Androidsdk\sdk\build-tools\android-4.4W;C:\nodejs\;D:\Python\Python37;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Mozilla Firefox;d:\Program Files\Git\cmd;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Fiddler;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Users\苏软\AppData\Roaming\npm;.]
+2018-09-10 22:05:41.007 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-10 22:05:41.007 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2164 ms
+2018-09-10 22:05:41.212 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-10 22:05:41.217 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 22:05:41.217 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 22:05:41.218 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 22:05:41.219 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 22:05:41.274 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demo': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2018-09-10 22:05:41.274 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2018-09-10 22:05:41.276 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-09-10 22:05:41.298 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-10 22:05:41.402 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+	- Bean method 'sqlSessionTemplate' not loaded because @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans of type javax.sql.DataSource
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2018-09-10 22:05:59.112 [main] INFO  com.course.Application - Starting Application on zxm with PID 29572 (D:\zxm\Test\Chapter11\target\classes started by 苏软 in D:\zxm\Test)
+2018-09-10 22:05:59.118 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-09-10 22:05:59.342 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7494f96a: startup date [Mon Sep 10 22:05:59 CST 2018]; root of context hierarchy
+2018-09-10 22:06:01.011 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-09-10 22:06:01.045 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-10 22:06:01.046 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-10 22:06:01.053 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Appium\node_modules\.bin;C:\Androidsdk\sdk\tools;C:\Androidsdk\sdk\platform-tools;C:\Androidsdk\sdk\build-tools\android-4.4W;C:\nodejs\;D:\Python\Python37;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Mozilla Firefox;d:\Program Files\Git\cmd;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Fiddler;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Users\苏软\AppData\Roaming\npm;.]
+2018-09-10 22:06:01.307 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-10 22:06:01.307 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1966 ms
+2018-09-10 22:06:01.512 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-10 22:06:01.518 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 22:06:01.519 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 22:06:01.519 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 22:06:01.519 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 22:06:01.558 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 22:06:01.559 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2018-09-10 22:06:01.559 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-09-10 22:06:01.578 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-10 22:06:01.694 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+	- Bean method 'sqlSessionTemplate' not loaded because @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans of type javax.sql.DataSource
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2018-09-10 22:10:08.283 [main] INFO  com.course.Application - Starting Application on zxm with PID 35696 (D:\zxm\Test\Chapter11\target\classes started by 苏软 in D:\zxm\Test)
+2018-09-10 22:10:08.293 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-09-10 22:10:08.470 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e178745: startup date [Mon Sep 10 22:10:08 CST 2018]; root of context hierarchy
+2018-09-10 22:10:11.061 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-09-10 22:10:11.133 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-10 22:10:11.150 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-10 22:10:11.162 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Appium\node_modules\.bin;C:\Androidsdk\sdk\tools;C:\Androidsdk\sdk\platform-tools;C:\Androidsdk\sdk\build-tools\android-4.4W;C:\nodejs\;D:\Python\Python37;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Mozilla Firefox;d:\Program Files\Git\cmd;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Fiddler;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Users\苏软\AppData\Roaming\npm;.]
+2018-09-10 22:10:11.518 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-10 22:10:11.518 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3048 ms
+2018-09-10 22:10:11.808 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-10 22:10:11.812 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 22:10:11.813 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 22:10:11.813 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 22:10:11.813 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 22:10:11.861 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 22:10:11.861 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2018-09-10 22:10:11.863 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-09-10 22:10:11.887 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-10 22:10:12.020 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+	- Bean method 'sqlSessionTemplate' not loaded because @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans of type javax.sql.DataSource
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2018-09-10 22:20:42.185 [main] INFO  com.course.Application - Starting Application on zxm with PID 24580 (D:\zxm\Test\Chapter11\target\classes started by 苏软 in D:\zxm\Test)
+2018-09-10 22:20:42.196 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-09-10 22:20:42.391 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e178745: startup date [Mon Sep 10 22:20:42 CST 2018]; root of context hierarchy
+2018-09-10 22:20:44.625 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-09-10 22:20:44.664 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-10 22:20:44.665 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-10 22:20:44.673 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Appium\node_modules\.bin;C:\Androidsdk\sdk\tools;C:\Androidsdk\sdk\platform-tools;C:\Androidsdk\sdk\build-tools\android-4.4W;C:\nodejs\;D:\Python\Python37;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Mozilla Firefox;d:\Program Files\Git\cmd;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Fiddler;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Users\苏软\AppData\Roaming\npm;.]
+2018-09-10 22:20:44.957 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-10 22:20:44.958 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2567 ms
+2018-09-10 22:20:45.148 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-10 22:20:45.154 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 22:20:45.154 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 22:20:45.154 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 22:20:45.154 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 22:20:45.285 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 22:20:45.286 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2018-09-10 22:20:45.292 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-09-10 22:20:45.325 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-10 22:20:45.447 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+	- Bean method 'sqlSessionTemplate' not loaded because @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans of type javax.sql.DataSource
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+
+2018-09-10 22:26:01.131 [main] INFO  com.course.Application - Starting Application on zxm with PID 32892 (D:\zxm\Test\Chapter11\target\classes started by 苏软 in D:\zxm\Test)
+2018-09-10 22:26:01.143 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-09-10 22:26:01.292 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a4ca3f6: startup date [Mon Sep 10 22:26:01 CST 2018]; root of context hierarchy
+2018-09-10 22:26:03.119 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-09-10 22:26:03.194 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-10 22:26:03.194 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-09-10 22:26:03.205 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.4\bin;C:\Appium\node_modules\.bin;C:\Androidsdk\sdk\tools;C:\Androidsdk\sdk\platform-tools;C:\Androidsdk\sdk\build-tools\android-4.4W;C:\nodejs\;D:\Python\Python37;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Mozilla Firefox;d:\Program Files\Git\cmd;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Fiddler;C:\Users\苏软\AppData\Local\Microsoft\WindowsApps;C:\Users\苏软\AppData\Roaming\npm;.]
+2018-09-10 22:26:04.067 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-10 22:26:04.067 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2775 ms
+2018-09-10 22:26:04.343 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-10 22:26:04.349 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 22:26:04.349 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 22:26:04.349 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 22:26:04.350 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 22:26:04.492 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 22:26:04.493 [main] WARN  org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'application': java.lang.NullPointerException
+2018-09-10 22:26:04.502 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-09-10 22:26:04.656 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-10 22:26:06.119 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+	- Bean method 'sqlSessionTemplate' not loaded because @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans of type javax.sql.DataSource
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.mybatis.spring.SqlSessionTemplate' in your configuration.
+

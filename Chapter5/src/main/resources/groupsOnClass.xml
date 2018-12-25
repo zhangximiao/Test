@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="套件驱动类的分组">
+    <test name="ruanAll">
+        <classes name="all">
+            <class name="com.course.testng.groups.GroupsOnClass1"/>
+            <class name="com.course.testng.groups.GroupsOnClass2"/>
+            <class name="com.course.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+    <test name="onlyStu">
+        <groups name="stu">
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+        <classes name="all">
+            <class name="com.course.testng.groups.GroupsOnClass1"/>
+            <class name="com.course.testng.groups.GroupsOnClass2"/>
+            <class name="com.course.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>
