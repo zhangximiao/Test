@@ -4,7 +4,7 @@ package com.course.testng;
 import org.testng.annotations.*;
 
 public class BasicAnnotation {
-
+//了解testng的注解
    @Test
    protected void testCase1(){
        System.out.println("this is test11111 class");
@@ -33,7 +33,6 @@ public class BasicAnnotation {
     public void AfterSuit(){
         System.out.println("this is AfterSuit class");
     }
-
     @AfterClass
     public void afterClass() {
         System.out.println("this is after class");

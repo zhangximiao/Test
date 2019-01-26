@@ -17,7 +17,6 @@ public class demo {
         HttpGet get =new HttpGet("http://www.baidu.com");
         //这个是用来执行get方法的
         DefaultHttpClient client= new DefaultHttpClient();
-//        HttpClient client= HttpClientBuilder.create().build();
         HttpResponse response= client.execute(get);
         result=EntityUtils.toString(response.getEntity(),"utf-8");
         System.out.println(result);

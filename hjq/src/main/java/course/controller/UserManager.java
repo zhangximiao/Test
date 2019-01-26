@@ -1,4 +1,4 @@
-package com.course.controller;
+package course.controller;
 
 import com.course.model.User;
 import io.swagger.annotations.Api;

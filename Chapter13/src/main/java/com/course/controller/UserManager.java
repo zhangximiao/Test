@@ -35,6 +35,7 @@ public class UserManager {
         response.addCookie(cookie);
         log.info("查看到的结果是"+i);
         if(i==1){
+            log.info("用户是:"+user.getUserName());
             return true;
         }
 
@@ -45,6 +46,7 @@ public class UserManager {
     public boolean addUser(HttpServletRequest request,@RequestBody User user){
         Boolean x = verifyCookies(request);
         int result = 0;
+        log.info("没判断前，x是:"+x);
         if(x != null){
             result = template.insert("addUser",user);
         }
