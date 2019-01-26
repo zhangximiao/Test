@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa642e85-5bec-4d89-b9d3-c20c0d5b89c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hjq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/java/course/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/java/course/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/java/course/controller/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/java/course/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hjq/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/AddUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/GetUserInfoListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/GetUserInfoListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/GetUserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/GetUserInfoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/UpdateUserInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/cases/UpdateUserInfoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/config/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/config/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/config/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/config/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/config/TestConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/AddUserCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/AddUserCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/GetUserInfoCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/GetUserInfoCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/GetUserListCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/GetUserListCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/LoginCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/LoginCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/UpdateUserInfoCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/UpdateUserInfoCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/utils/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/utils/DatabaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/controller/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/controller/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/target/classes/com/course/controller/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/controller/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/IgnoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extent/demo/TestMethodsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extent/demo/TestMethodsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter6/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/target/classes/com/course/httpclient/cookies/MyCookieForPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/target/classes/com/course/httpclient/cookies/MyCookiesForGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/target/classes/com/course/httpclient/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mylog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter13/target/logs/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/target/logs/mylog.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -218,7 +174,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/course/controller/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
+            <state relative-caret-position="338">
               <caret line="76" column="41" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="41" />
             </state>
           </provider>
@@ -482,7 +438,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548510854838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548512044804" />
     <property name="last_opened_file_path" value="D:/Test/Test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -668,7 +624,7 @@
       <workItem from="1547174256755" duration="1592000" />
       <workItem from="1548225522495" duration="1215000" />
       <workItem from="1548239733139" duration="2910000" />
-      <workItem from="1548507461088" duration="3370000" />
+      <workItem from="1548507461088" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="上传第二版测试">
       <created>1536069547426</created>
@@ -713,7 +669,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179306000" />
+    <option name="totallyTimeSpent" value="179308000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -725,7 +681,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.36762482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -744,7 +701,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32933104" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" x="333" y="206" width="985" height="322" id="Terminal" order="9" sideWeight="0.49949238" visible="true" weight="0.8374384" />
+      <window_info anchor="bottom" x="333" y="206" width="985" height="322" id="Terminal" order="9" sideWeight="0.49949238" weight="0.8374384" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005076" side_tool="true" weight="0.32933104" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.37931034" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32840723" />
@@ -1084,7 +1041,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/course/controller/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
+        <state relative-caret-position="338">
           <caret line="76" column="41" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="41" />
         </state>
       </provider>
